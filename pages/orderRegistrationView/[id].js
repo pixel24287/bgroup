@@ -21,7 +21,7 @@ export default function OrderRegistrationView({data, cookies}) {
             alert('로그인을 하세요.')
             router.push('/login')
         }
-    }, [])
+    }, [cookies.accessToken])
 
     return (
         <>

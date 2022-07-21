@@ -35,7 +35,7 @@ export default function CreateNotice({cookies}) {
       alert('로그인을 하세요.')
       router.push('/login')
     }
-  }, []);
+  }, [cookies.accessToken]);
 
   //라우터 값이 존재할 때
   useEffect(() => {

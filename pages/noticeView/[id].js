@@ -26,7 +26,7 @@ export default function NoticeView({postId, cookies}) {
             alert('삭제된 계시물입니다.');
             router.back()
         }
-    }, [])
+    }, [cookies.accessToken])
 
     return (
         <>

@@ -34,7 +34,7 @@ export default function CreateNotice({cookies}) {
       alert('로그인을 하세요.')
       router.push('/login')
     }
-  }, []);
+  }, [cookies.accessToken]);
 
   return (
     <>

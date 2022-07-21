@@ -29,7 +29,7 @@ export default function CreateInquire({cookies}) {
     if(cookies.accessToken) {
       setName(jwtDecode(cookies.accessToken).nick_name)
     }
-  }, []);
+  }, [cookies.accessToken]);
 
   //ckEditor 특성상 페이지가 마운트 된 이후 에디터를 보여줘야함
   useEffect(() => {

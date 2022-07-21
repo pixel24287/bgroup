@@ -44,7 +44,7 @@ export default function UpdateProduct({postId, cookies}) {
       alert('로그인을 하세요.')
       router.push('/login')
     }
-  }, []);
+  }, [cookies.accessToken]);
 
   useEffect(() => {
     if (str !== undefined && str !== null && str !=='') {

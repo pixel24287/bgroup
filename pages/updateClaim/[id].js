@@ -63,7 +63,7 @@ export default function UpdateClaim({postId, cookies}) {
       setClaimDescription(data.claim.claim_description)
       setProcessingMethod(data.claim.processing_method)
     }
-  }, [data]);
+  }, [data, cookies.accessToken]);
 
   useEffect(() => {
     if (str !== undefined && str !== null && str !=='') {

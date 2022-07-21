@@ -50,7 +50,7 @@ export default function CreateBusinessApproval({cookies}) {
       setNickName(userInfo.nick_name)
       setEmail(userInfo.email)
     }
-  }, []);
+  }, [cookies.accessToken]);
 
 
   useEffect(() => {

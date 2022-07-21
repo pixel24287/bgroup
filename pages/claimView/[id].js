@@ -23,7 +23,7 @@ export default function ClaimView({postId, cookies}) {
         if (cookies.accessToken) {
             setUserInfo(jwtDecode(cookies.accessToken))
         }
-    }, [])
+    }, [cookies.accessToken])
 
     return (
         <>

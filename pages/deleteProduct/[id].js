@@ -20,7 +20,7 @@ export default function DeleteProduct({cookies, postId}) {
       alert('로그인을 하세요.')
       router.push('/login')
     }
-  }, []);
+  }, [cookies.accessToken]);
 
   //에디터 정보 전송
   const onSubmit = () => {

@@ -27,7 +27,7 @@ export default function ProductView({postId, cookies}) {
             alert('존재하지 않는 계시물입니다.');
             router.back()
         }
-    }, [])
+    }, [cookies.accessToken])
 
     return (
         <>

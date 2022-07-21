@@ -56,7 +56,7 @@ export default function UpdateBusinessApproval({postId, cookies}) {
       setPhoneNumber(data.business_approval.phone_number)
       setKeySalesChannel(data.business_approval.key_sales_channel)
     }
-  }, [data]);
+  }, [data, cookies.accessToken]);
 
   useEffect(() => {
     if (str !== undefined && str !== null && str !=='') {

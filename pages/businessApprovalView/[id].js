@@ -22,7 +22,7 @@ export default function BusinessApprovalView ({postId, cookies}) {
         if (cookies.accessToken) {
             setUserInfo(jwtDecode(cookies.accessToken))
         }
-    }, [])
+    }, [cookies.accessToken])
 
 /*
     const API_URL = 'http://localhost:5000'

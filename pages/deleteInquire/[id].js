@@ -18,7 +18,7 @@ export default function DeleteInquire({cookies, postId}) {
     if(cookies.accessToken) {
       setUserInfo(jwtDecode(cookies.accessToken))
     }
-  }, []);
+  }, [cookies.accessToken]);
 
   //에디터 정보 전송
   const onSubmit = () => {

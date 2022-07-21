@@ -47,7 +47,7 @@ export default function UpdateInquire({postId, cookies}) {
       setEditorLoaded(true)
       setDisabled(false)
     }
-  }, [data]);
+  }, [data, cookies.accessToken]);
 
   useEffect(() => {
     if (str !== undefined && str !== null && str !=='') {
