@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.input {
+    width: 70vw;
+    max-width: 874px;
+    min-height: 150px;
+    padding: 0.5rem;
+    margin: 1rem;
+    resize: none;
+}
+.input_area {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column;
+}
+.input_buttons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 1rem;
+}
+.input_button {
+    border: none;
+    font-size: 1.2rem;
+    width: 6rem;
+    height: 2.4rem;
+    margin-right: 0.4rem;
+
+    cursor: pointer;
+}
+
+.comment_info {
+    flex: 7;
+}
+
+.button {
+    border: none;
+    font-size: 1.2rem;
+    width: 6rem;
+    height: 2.4rem;
+
+    cursor: pointer;
+}

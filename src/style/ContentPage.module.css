@@ -1,0 +1,28 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding-top: 3rem;
+}
+.container img {
+    max-width: 40vw;
+}
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+.past {
+    font-size: 1.2rem;
+    font-weight: bold;
+}

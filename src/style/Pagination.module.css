@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    margin: 1rem 0rem;
+    padding: 0.2rem 0.6rem;
+    width: 100%;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 1rem;
+}
+.admin_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    margin: 5rem 0rem 1rem 0rem;
+    padding: 0.2rem 0.6rem;
+    width: 100%;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 1rem;
+}
+.arrow_area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+.arrow_button {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.number_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+.number {
+    font-size: 1.2rem;
+    padding: 0rem 1rem 0.2rem;
+    cursor: pointer;
+}

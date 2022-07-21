@@ -1,0 +1,79 @@
+.container {
+    width: 80vw;
+    max-width: 992px;
+    height: 2.5rem;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding: 0.4rem 0rem;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.container:hover {
+    background-color: rgb(240, 240, 240);
+}
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+.number {
+    margin-left: 2rem;
+    font-size: 0.75rem;
+    flex: 1;
+}
+.title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.75rem;
+    padding-left: 1rem;
+    flex: 14;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+.create_button {
+    width: 5rem;
+    font-size: 0.75rem;
+    padding: 0.75rem;
+    margin: 0rem;
+    color: blue;
+}
+.create_button:hover {
+    font-weight: bolder;
+}
+.update_button {
+    width: 3rem;
+    font-size: 0.75rem;
+    padding: 0.75rem;
+    margin: 0.5rem;
+    color: blue;
+}
+.update_button:hover {
+    font-weight: bolder;
+}
+.delete_button {
+    width: 3rem;
+    font-size: 0.75rem;
+    padding: 0.75rem;
+    margin: 0rem 1rem 0rem 0rem;
+    color: red;
+}
+.delete_button:hover {
+    font-weight: bolder;
+}
+.input {
+    width: 100%;
+    height: 100%;
+    margin-left: 1rem;
+    border: none;
+}
+.input:focus {
+    outline: 1px solid rgb(221, 221, 221);
+}
