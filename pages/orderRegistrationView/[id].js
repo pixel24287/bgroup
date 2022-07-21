@@ -11,7 +11,7 @@ import jwtDecode from 'jwt-decode'
 import { WriteComment } from '../../src/component/WriteComment'
 import { CommentList } from '../../src/component/CommentList'
 
-export default function orderRegistrationView({data, cookies}) {
+export default function OrderRegistrationView({data, cookies}) {
     const [userInfo, setUserInfo] = useState({})
     const router = useRouter();
     useEffect(() => {

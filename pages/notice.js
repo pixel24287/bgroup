@@ -8,7 +8,7 @@ import { Footer } from "../src/component/Footer";
 
 import BgroupImg from '../src/image/b_group_img.jpg'
 
-export default function notice({cookies}) {
+export default function Notice({cookies}) {
   //recoil 설정
   /*const [cookie, setCookie] = useRecoilState(cookieState)
   const [ , setUserInformation] = useRecoilState(userInformationState)

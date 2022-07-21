@@ -11,7 +11,7 @@ import jwtDecode from 'jwt-decode';
 
 import styles from '../styles/GuideButton.module.css'
 
-export default function createOrderRegistration({cookies}) {
+export default function CreateOrderRegistration({cookies}) {
   const router = useRouter()
 
   //에디터 상태 관리 변수

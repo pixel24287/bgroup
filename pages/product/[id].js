@@ -10,7 +10,7 @@ import { Footer } from "../../src/component/Footer";
 
 import BgroupImg from '../../src/image/b_group_img.jpg'
 
-export default function product({cookies}) {
+export default function Product({cookies}) {
     const router = useRouter()
     const [delay1, setDelay1] = useState(0)
     const [delay2, setDelay2] = useState(1)

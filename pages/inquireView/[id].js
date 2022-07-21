@@ -11,7 +11,7 @@ import { PasswordForm } from '../../src/component/PasswordForm'
 import { WriteComment } from '../../src/component/WriteComment'
 import { CommentList } from '../../src/component/CommentList'
 
-export default function inquireView({postId, cookies}) {
+export default function InquireView({postId, cookies}) {
     const [userInfo, setUserInfo] = useState({})
     const [isLogin, setIsLogin] = useState(false)
     const [data, setData] = useState()

@@ -14,7 +14,7 @@ import { PasswordForm } from '../../src/component/PasswordForm';
 
 import styles from '../../styles/GuideButton.module.css'
 
-export default function updateClaim({postId, cookies}) {
+export default function UpdateClaim({postId, cookies}) {
 
   const router = useRouter()
   //에디터 상태 관리 변수

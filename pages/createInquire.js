@@ -12,7 +12,7 @@ import jwtDecode from 'jwt-decode';
 import styles from '../styles/GuideButton.module.css'
 import { InquireForm } from '../src/component/InquireForm';
 
-export default function createInquire({cookies}) {
+export default function CreateInquire({cookies}) {
   const router = useRouter()
 
   //에디터 상태 관리 변수

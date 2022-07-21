@@ -12,7 +12,7 @@ import axios from 'axios';
 
 import styles from '../styles/GuideButton.module.css'
 
-export default function createBusinessApproval({cookies}) {
+export default function CreateBusinessApproval({cookies}) {
   const router = useRouter()
 
   //에디터 상태 관리 변수

@@ -4,7 +4,7 @@ import { Topbar } from '../src/component/Topbar'
 import Slider from "../src/component/Slider";
 
 
-export default function index({cookies}) {
+export default function Index({cookies}) {
   //recoil 설정
   /*const [cookie, setCookie] = useRecoilState(cookieState)
   const [ userInformation, setUserInformation] = useRecoilState(userInformationState)

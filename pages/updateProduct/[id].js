@@ -11,7 +11,7 @@ import { Editor } from '../../src/component/Editor';
 
 import styles from '../../styles/GuideButton.module.css'
 
-export default function updateProduct({postId, cookies}) {
+export default function UpdateProduct({postId, cookies}) {
 
   const router = useRouter()
   //에디터 상태 관리 변수

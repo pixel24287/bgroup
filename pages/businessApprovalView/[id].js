@@ -12,7 +12,7 @@ import { WriteComment } from '../../src/component/WriteComment'
 import { CommentList } from '../../src/component/CommentList'
 import { PasswordForm } from '../../src/component/PasswordForm'
 
-export default function businessApprovalView ({postId, cookies}) {
+export default function BusinessApprovalView ({postId, cookies}) {
     const [userInfo, setUserInfo] = useState({})
     const [isLogin, setIsLogin] = useState(false)
     const [data, setData] = useState()

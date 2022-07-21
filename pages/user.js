@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { UserTopbar } from '../src/component/UserTopbar'
 import { Footer } from "../src/component/Footer";
 
-export default function user({cookies}) {
+export default function User({cookies}) {
 
   return (
     <>

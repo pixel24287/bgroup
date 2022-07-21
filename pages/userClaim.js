@@ -4,7 +4,7 @@ import { UserTopbar } from '../src/component/UserTopbar'
 import { Footer } from "../src/component/Footer";
 import { UserContentList } from "../src/component/UserContentList";
 
-export default function userClaim({cookies}) {
+export default function UserClaim({cookies}) {
 
   return (
     <div  style={{width : '100%', height : '100vh', display : 'flex', justifyContent : 'space-between', alignItems : 'center', flexFlow : 'column nowrap'}}>

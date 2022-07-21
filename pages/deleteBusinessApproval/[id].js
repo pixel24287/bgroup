@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import axios from 'axios';
 import jwtDecode from 'jwt-decode';
 
-export default function deleteBusinessApproval({cookies, postId}) {
+export default function DeleteBusinessApproval({cookies, postId}) {
 
   const router = useRouter()
 

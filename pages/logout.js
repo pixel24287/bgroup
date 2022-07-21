@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import axios from 'axios';
 
-export default function logout() {
+export default function Logout() {
   const router = useRouter();
 
   useEffect(() => {

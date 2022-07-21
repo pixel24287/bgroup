@@ -14,7 +14,7 @@ import styles from '../../styles/GuideButton.module.css'
 import { InquireForm } from '../../src/component/InquireForm';
 import { PasswordForm } from '../../src/component/PasswordForm';
 
-export default function updateInquire({postId, cookies}) {
+export default function UpdateInquire({postId, cookies}) {
 
   const router = useRouter()
   //에디터 상태 관리 변수

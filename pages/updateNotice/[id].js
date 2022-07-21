@@ -12,7 +12,7 @@ import { Editor } from '../../src/component/Editor';
 
 import styles from '../../styles/GuideButton.module.css'
 
-export default function updateNotice({getData, cookies}) {
+export default function UpdateNotice({getData, cookies}) {
 
   const router = useRouter()
   //에디터 상태 관리 변수

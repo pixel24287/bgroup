@@ -5,7 +5,7 @@ import { Footer } from "../src/component/Footer";
 import { FileUpload } from "../src/component/FileUpload";
 import { PortfolioContentList } from "../src/component/PortfolioContentList";
 
-export default function orderRegistrationAdmin({cookies}) {
+export default function SliderAdmin({cookies}) {
 
   return (
     <div  style={{width : '100%', height : '100vh', display : 'flex', justifyContent : 'space-between', alignItems : 'center', flexFlow : 'column nowrap'}}>

@@ -5,7 +5,7 @@ import { Footer } from "../src/component/Footer";
 import { ProductContentList } from "../src/component/ProductContentList";
 import { InputProduct } from "../src/component/InputProduct";
 
-export default function productAdmin({cookies}) {
+export default function ProductAdmin({cookies}) {
   return (
     <div  style={{width : '100%', height : '100vh', display : 'flex', justifyContent : 'space-between', alignItems : 'center', flexFlow : 'column nowrap'}}>
       <Head>

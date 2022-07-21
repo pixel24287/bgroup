@@ -9,7 +9,7 @@ import { Footer } from "../src/component/Footer";
 import BgroupImg from '../src/image/b_group_img.jpg'
 import { PortfolioContentList } from "../src/component/PortfolioContentList";
 
-export default function portfolio({cookies}) {
+export default function Portfolio({cookies}) {
 
   const [delay1, setDelay1] = useState(0)
   const [delay2, setDelay2] = useState(1)

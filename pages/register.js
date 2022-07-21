@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { RegisterForm } from '../src/component/RegisterForm'
 
-export default function register({cookies}) {
+export default function Register({cookies}) {
 
   if(cookies.refreshToken) {
     return (

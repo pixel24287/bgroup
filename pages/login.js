@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { AuthForm } from '../src/component/AuthForm'
 
-export default function login({cookies}) {
+export default function Login({cookies}) {
   if(cookies.refreshToken) {
     return (
       <div style={{width:'100vw', height:'100vh', display: 'flex', justifyContent:'center', alignItems:'center'}}>

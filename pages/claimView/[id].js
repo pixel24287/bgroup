@@ -12,7 +12,7 @@ import { PasswordForm } from '../../src/component/PasswordForm'
 import { WriteComment } from '../../src/component/WriteComment'
 import { CommentList } from '../../src/component/CommentList'
 
-export default function claimView({postId, cookies}) {
+export default function ClaimView({postId, cookies}) {
     const [userInfo, setUserInfo] = useState({})
     const [isLogin, setIsLogin] = useState(false)
     const [data, setData] = useState()

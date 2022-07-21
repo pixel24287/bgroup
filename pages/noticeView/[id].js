@@ -11,7 +11,7 @@ import jwtDecode from 'jwt-decode'
 import { WriteComment } from '../../src/component/WriteComment'
 import { CommentList } from '../../src/component/CommentList'
 
-export default function noticeView({postId, cookies}) {
+export default function NoticeView({postId, cookies}) {
     const [userInfo, setUserInfo] = useState({})
     const [data, setData] = useState({})
     const API_URL = 'http://localhost:5000'

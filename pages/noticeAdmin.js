@@ -4,7 +4,7 @@ import { AdminTopbar } from '../src/component/AdminTopbar'
 import { Footer } from "../src/component/Footer";
 import { MainNoticeContentList } from "../src/component/MainNoticeContentList";
 
-export default function noticeAdmin({cookies}) {
+export default function NoticeAdmin({cookies}) {
 
   return (
     <div  style={{width : '100%', height : '100vh', display : 'flex', justifyContent : 'space-between', alignItems : 'center', flexFlow : 'column nowrap'}}>
