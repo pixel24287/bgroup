@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    width: 30vw;
+    height: 30vw;
+    min-width: 15rem;
+    min-height: 15rem;
+    max-width: 768px;
+    max-height: 768px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed rgb(221, 221, 221);
+}
+.upload_image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    filter: invert(86%) sepia(18%) saturate(12%) hue-rotate(60deg) brightness(102%) contrast(90%);
+}
