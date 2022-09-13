@@ -1,0 +1,16 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+.comment {
+    width: 80vw;
+    max-width: 992px;
+    font-size: 1rem;
+    padding: 1rem;
+    border-top: 1px solid rgb(224, 224, 224);
+    border-bottom: 1px solid rgb(224, 224, 224);
+
+    background-color: rgb(245, 245, 245);
+}

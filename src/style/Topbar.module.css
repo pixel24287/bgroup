@@ -1,0 +1,196 @@
+.container {
+    position: sticky;
+    width: 100%;
+    height: 3.5rem;
+    max-height: 3.5rem;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+
+    padding-left: 2rem;
+    box-shadow: 0px 1px 1px rgb(224, 224, 224);
+    background-color: white;
+    z-index: 9;
+}
+.top {
+    display: none;
+}
+.main_logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    height: 3.5rem;
+    max-height: 3.5rem;
+    font-weight: bold;
+    padding: 0rem 1rem;
+    cursor: pointer;
+}
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    height: 3.5rem;
+    max-height: 3.5rem;
+    font-weight: bold;
+    padding: 0rem 1rem;
+    cursor: pointer;
+}
+.title a {
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    padding: 0;
+    list-style: none;
+}
+.hidden_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    padding: 0;
+    list-style: none;
+}
+.main_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    padding: 0;
+    list-style: none;
+}
+.hidden_main_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    padding: 0;
+    list-style: none;
+}
+.sub_menu {
+    position: absolute;
+    box-shadow: 1px 1px 5px rgb(224, 224, 224);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+
+    transition: 0.3s;
+}
+.hidden_sub_menu {
+    display: none;
+}
+.sub_menu li {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+.button {
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    height: 3.5rem;
+    max-height: 3.5rem;
+}
+
+@media screen and (max-width : 1024px) {
+    .hidden_main_menu {
+        display: none;
+    }
+    .hidden_menu {
+        display: none;
+    }
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-flow: column nowrap;
+        padding: 0rem;
+        
+    }
+    .title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0rem;
+        background-color: white;
+        box-shadow: 1px 1px 5px rgb(224, 224, 224);
+    }
+    .title:hover {
+        background-color: rgb(246, 246, 246);
+    }
+    .menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+        margin: 0;
+    }
+    .main_menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+    }
+    .sub_container {
+        width: 100%;
+    }
+    .sub_menu {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sub_menu li {
+        text-align: center;
+        padding: 0.8rem 0rem;
+    }
+    .button {
+        width: 100%;
+        background-color: white;
+        margin: 0;
+    }
+    .main_logo {
+        display: none;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        height: 3.5rem;
+        max-height: 3.5rem;
+        font-weight: bold;
+        padding: 0rem 1rem;
+        cursor: pointer;
+    }
+    .top {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .image {
+        padding: 0.2rem 0.4rem;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,65 @@
+.container {
+    width: 20rem;
+    height: 15rem;
+    margin: 1rem;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.content:hover {
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.click_container {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background-color: rgba(128, 128, 128, 0.7);
+}
+.click_content {
+    width: 61.8vw;
+    height: 38.2vw;
+    max-width: 815.472px;
+    max-height: 504px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.none {
+    display: none;
+}
+.image {
+    border-radius: 10px;
+}
+.buttons {
+    width: 61.8vw;
+    max-width: 815.472px;
+    text-align: end;
+}
+.button {
+    width: 4rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+.button:hover {
+    background-color: red;
+}
