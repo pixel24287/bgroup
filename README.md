@@ -23,6 +23,8 @@
 
 1-5 전송받은 토큰은 httponly, secure 옵션을 켜서 저장한다. (xss 공격 방어)
 
+1-6 이 방식보단 refresh token을 저장해서 httponly, secure옵션을 키고, access token은 state에 저장해서 새로고침 시 refresh token을 이용해 불러오는 것이 좋다.
+
 
 ## 2. 검색
 
